@@ -1,9 +1,9 @@
-## Descargas necesarias
+# Descargas necesarias
 
-# Angular CLI
+### Angular CLI
 
-# Node
+### Node
 
-## Comando para correr la aplicacion
+# Comando para correr la aplicacion
 
-# `ng serve -o`
+### `ng serve -o`
