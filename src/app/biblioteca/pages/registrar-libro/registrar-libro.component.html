@@ -1,0 +1,132 @@
+<div class="main-content">
+  <app-navbar></app-navbar>
+  <main class="p-2">
+    <div class="container mt-4">
+      <h1>Registrar libro</h1>
+      <hr />
+      <form action="" class="p-4 shadow">
+        <p><strong>Datos del libro</strong></p>
+        <div class="row mb-4">
+          <div class="col-12">
+            <label for="" class="form-label">Titulo</label>
+            <input
+              type="text"
+              class="form-control is-invalid"
+              placeholder="Ingrese el titulo del libro"
+            />
+            <div class="invalid-feedback">El titulo es obligatorio</div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-6">
+            <label for="" class="form-label">Edicion</label>
+            <input
+              type="text"
+              class="form-control is-valid"
+              placeholder="Ingrese la edicion del libro"
+            />
+          </div>
+          <div class="col-6">
+            <label for="" class="form-label">ISBN</label>
+            <input
+              type="text"
+              class="form-control is-valid"
+              placeholder="Ingrese el ISBN"
+            />
+          </div>
+        </div>
+        <p><strong>Categoria</strong> (marque una opcion)</p>
+        <div class="d-flex justify-content-around mb-4 flex-wrap gap-4">
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Ciencia
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category active"
+          >
+            Literatura y lingüistico
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Tecnologia
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Arte
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Ciencia
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Literatura y lingüistico
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Tecnologia
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary flex-grow-1 category"
+          >
+            Arte
+          </button>
+        </div>
+        <P><strong>Datos del autor</strong></P>
+        <div class="row mb-4">
+          <div class="col-6">
+            <label for="" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el nombre del autor"
+            />
+          </div>
+          <div class="col-6">
+            <label for="" class="form-label"> Nacionalidad </label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese la nacionalidad del autor"
+            />
+          </div>
+        </div>
+        <p><strong>Datos de la editorial</strong></p>
+        <div class="row mb-5">
+          <div class="col-6">
+            <label for="" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el nombre de la editorial"
+            />
+          </div>
+          <div class="col-6">
+            <label for="" class="form-label">Direccion</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese la direccion de la editorial"
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-success w-100">Registrar</button>
+      </form>
+    </div>
+  </main>
+</div>

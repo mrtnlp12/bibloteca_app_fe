@@ -1,0 +1,76 @@
+<div class="main-content">
+  <app-navbar></app-navbar>
+  <main class="p-2">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-10">
+          <h1>Libro: <small>El principito</small></h1>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-secondary" (click)="goBack()">Regresar</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/6159x2dpH8L.jpg"
+            alt=""
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col">
+          <h3>Informacíon</h3>
+          <h5 class="text-secondary">Datos del libro</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">
+              <strong> ID: 323 </strong>
+            </li>
+            <li class="list-group-item">
+              <strong> Edicion: 1a Edición </strong>
+            </li>
+            <li class="list-group-item">
+              <strong> Fecha de publicacion: 13 de febrero del 2000 </strong>
+            </li>
+            <li class="list-group-item">
+              <strong> ISBN: 9789500427906 </strong>
+            </li>
+            <li class="list-group-item">
+              <strong>Categoria(s):</strong>
+              <span class="badge bg-primary m-1 rounded-pill">Literatura</span>
+              <span class="badge bg-primary m-1 rounded-pill">Comedia</span>
+              <span class="badge bg-primary m-1 rounded-pill">Fantasia</span>
+            </li>
+            <li class="list-group-item">
+              <strong> Disponibles: 4 </strong>
+            </li>
+          </ul>
+          <h5 class="text-secondary">Datos del autor</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">
+              <strong> Autor(res): Antoine de Saint-Exupéry </strong>
+            </li>
+            <li class="list-group-item">
+              <strong> Nacionalidad: Francesa </strong>
+            </li>
+          </ul>
+
+          <h5 class="text-secondary">Datos de la editorial</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">
+              <strong>Nombre: Emecé México</strong>
+            </li>
+            <li class="list-group-item">
+              <strong>Direccion: México</strong>
+            </li>
+          </ul>
+          <h3 class="mb-3">Opciones</h3>
+          <button class="btn btn-warning me-2" routerLink="/actualizar-libro/1">
+            Actualizar informacion
+          </button>
+          <button class="btn btn-danger">Eliminar libro</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

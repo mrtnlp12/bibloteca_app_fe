@@ -1,0 +1,45 @@
+<div class="main-content">
+  <app-navbar></app-navbar>
+  <main class="p-2">
+    <div class="container mt-4">
+      <h1 class="mb-4">Nuevo prestamo</h1>
+      <hr class="mb-5" />
+      <form action="" class="border p-4 shadow">
+        <div class="row mb-4">
+          <div class="col-6">
+            <label for="" class="form-label"
+              >Numero de control del estudiante</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el numero de control del estudinate"
+            />
+            <div class="text-danger">
+              No existe alumno con el numero de control 9192929
+            </div>
+          </div>
+          <div class="col-6">
+            <label for="" class="form-label">ID del libro a prestar</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el ID del libro a prestar"
+            />
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-6">
+            <label for="">Fecha del prestamo</label>
+            <input type="date" class="form-control" />
+          </div>
+          <div class="col-6">
+            <label for="">Fecha de entrega</label>
+            <input type="date" class="form-control" />
+          </div>
+        </div>
+        <button class="btn btn-success" type="submit">Generar prestamo</button>
+      </form>
+    </div>
+  </main>
+</div>

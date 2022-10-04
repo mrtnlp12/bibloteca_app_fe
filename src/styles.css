@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.main-content {
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+
+.nav-width {
+  max-width: 20vw;
+  width: 20vw;
+}
